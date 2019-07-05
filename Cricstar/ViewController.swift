@@ -10,6 +10,15 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var IconImg: UIImageView!
+    @IBOutlet weak var Userid: UITextField!
+    @IBOutlet weak var PasswordMSg: UITextField!
+    @IBAction func LoginMsg(_ sender: UIButton) {
+        
+    }
+    @IBAction func SwitchBTnMsg(_ sender: UISwitch) {
+        
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.

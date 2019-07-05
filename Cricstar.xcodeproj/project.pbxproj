@@ -12,6 +12,8 @@
 		5E2DE6AF22CEC6D1009B214A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E2DE6AD22CEC6D1009B214A /* Main.storyboard */; };
 		5E2DE6B122CEC6D2009B214A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E2DE6B022CEC6D2009B214A /* Assets.xcassets */; };
 		5E2DE6B422CEC6D2009B214A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E2DE6B222CEC6D2009B214A /* LaunchScreen.storyboard */; };
+		5E2DE6BD22CEC72B009B214A /* IconImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E2DE6BC22CEC72B009B214A /* IconImageViewController.swift */; };
+		5E2DE6BF22CEC738009B214A /* Cricketprojectios.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5E2DE6BE22CEC738009B214A /* Cricketprojectios.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		5E2DE6B022CEC6D2009B214A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5E2DE6B322CEC6D2009B214A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5E2DE6B522CEC6D2009B214A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E2DE6BC22CEC72B009B214A /* IconImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconImageViewController.swift; sourceTree = "<group>"; };
+		5E2DE6BE22CEC738009B214A /* Cricketprojectios.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Cricketprojectios.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,7 @@
 		5E2DE6A822CEC6D1009B214A /* Cricstar */ = {
 			isa = PBXGroup;
 			children = (
+				5E2DE6BB22CEC70A009B214A /* New Group */,
 				5E2DE6A922CEC6D1009B214A /* AppDelegate.swift */,
 				5E2DE6AB22CEC6D1009B214A /* ViewController.swift */,
 				5E2DE6AD22CEC6D1009B214A /* Main.storyboard */,
@@ -62,6 +67,15 @@
 				5E2DE6B522CEC6D2009B214A /* Info.plist */,
 			);
 			path = Cricstar;
+			sourceTree = "<group>";
+		};
+		5E2DE6BB22CEC70A009B214A /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				5E2DE6BC22CEC72B009B214A /* IconImageViewController.swift */,
+				5E2DE6BE22CEC738009B214A /* Cricketprojectios.jpg */,
+			);
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +139,7 @@
 				5E2DE6B422CEC6D2009B214A /* LaunchScreen.storyboard in Resources */,
 				5E2DE6B122CEC6D2009B214A /* Assets.xcassets in Resources */,
 				5E2DE6AF22CEC6D1009B214A /* Main.storyboard in Resources */,
+				5E2DE6BF22CEC738009B214A /* Cricketprojectios.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,6 +151,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5E2DE6AC22CEC6D1009B214A /* ViewController.swift in Sources */,
+				5E2DE6BD22CEC72B009B214A /* IconImageViewController.swift in Sources */,
 				5E2DE6AA22CEC6D1009B214A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
