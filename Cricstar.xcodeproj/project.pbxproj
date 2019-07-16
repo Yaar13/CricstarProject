@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5E1E907622DE9391004D7B73 /* PlayerList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5E1E907522DE9391004D7B73 /* PlayerList.plist */; };
 		5E2DE6AA22CEC6D1009B214A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E2DE6A922CEC6D1009B214A /* AppDelegate.swift */; };
 		5E2DE6AC22CEC6D1009B214A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E2DE6AB22CEC6D1009B214A /* ViewController.swift */; };
 		5E2DE6AF22CEC6D1009B214A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E2DE6AD22CEC6D1009B214A /* Main.storyboard */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5E1E907522DE9391004D7B73 /* PlayerList.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = PlayerList.plist; sourceTree = "<group>"; };
 		5E2DE6A622CEC6D1009B214A /* Cricstar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cricstar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E2DE6A922CEC6D1009B214A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5E2DE6AB22CEC6D1009B214A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -61,6 +63,7 @@
 				5E2DE6BB22CEC70A009B214A /* New Group */,
 				5E2DE6A922CEC6D1009B214A /* AppDelegate.swift */,
 				5E2DE6AB22CEC6D1009B214A /* ViewController.swift */,
+				5E1E907522DE9391004D7B73 /* PlayerList.plist */,
 				5E2DE6AD22CEC6D1009B214A /* Main.storyboard */,
 				5E2DE6B022CEC6D2009B214A /* Assets.xcassets */,
 				5E2DE6B222CEC6D2009B214A /* LaunchScreen.storyboard */,
@@ -138,6 +141,7 @@
 			files = (
 				5E2DE6B422CEC6D2009B214A /* LaunchScreen.storyboard in Resources */,
 				5E2DE6B122CEC6D2009B214A /* Assets.xcassets in Resources */,
+				5E1E907622DE9391004D7B73 /* PlayerList.plist in Resources */,
 				5E2DE6AF22CEC6D1009B214A /* Main.storyboard in Resources */,
 				5E2DE6BF22CEC738009B214A /* Cricketprojectios.jpg in Resources */,
 			);
