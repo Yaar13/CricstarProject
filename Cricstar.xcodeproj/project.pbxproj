@@ -20,6 +20,10 @@
 		DD9B163722E1BC340091CD5C /* CustomerError.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9B163622E1BC340091CD5C /* CustomerError.swift */; };
 		DD9B163922E1BD3C0091CD5C /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9B163822E1BD3C0091CD5C /* StringExtension.swift */; };
 		DD9B163B22E1C0010091CD5C /* PlayerListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9B163A22E1C0010091CD5C /* PlayerListViewController.swift */; };
+		DD9B163D22E1C2E20091CD5C /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9B163C22E1C2E20091CD5C /* Person.swift */; };
+		DD9B163F22E1C2FB0091CD5C /* IDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9B163E22E1C2FB0091CD5C /* IDisplay.swift */; };
+		DD9B164122E1C32E0091CD5C /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9B164022E1C32E0091CD5C /* Player.swift */; };
+		DD9B164322E1C3630091CD5C /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9B164222E1C3630091CD5C /* Team.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +42,10 @@
 		DD9B163622E1BC340091CD5C /* CustomerError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerError.swift; sourceTree = "<group>"; };
 		DD9B163822E1BD3C0091CD5C /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
 		DD9B163A22E1C0010091CD5C /* PlayerListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerListViewController.swift; sourceTree = "<group>"; };
+		DD9B163C22E1C2E20091CD5C /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		DD9B163E22E1C2FB0091CD5C /* IDisplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IDisplay.swift; sourceTree = "<group>"; };
+		DD9B164022E1C32E0091CD5C /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		DD9B164222E1C3630091CD5C /* Team.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Team.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +100,10 @@
 				DD9B163422E1AE6E0091CD5C /* UserStrFile.swift */,
 				DD9B163622E1BC340091CD5C /* CustomerError.swift */,
 				DD9B163822E1BD3C0091CD5C /* StringExtension.swift */,
+				DD9B163C22E1C2E20091CD5C /* Person.swift */,
+				DD9B163E22E1C2FB0091CD5C /* IDisplay.swift */,
+				DD9B164022E1C32E0091CD5C /* Player.swift */,
+				DD9B164222E1C3630091CD5C /* Team.swift */,
 			);
 			path = "New Group";
 			sourceTree = "<group>";
@@ -176,7 +188,11 @@
 				DD9B163B22E1C0010091CD5C /* PlayerListViewController.swift in Sources */,
 				DD9B163722E1BC340091CD5C /* CustomerError.swift in Sources */,
 				5E2DE6BD22CEC72B009B214A /* IconImageViewController.swift in Sources */,
+				DD9B163D22E1C2E20091CD5C /* Person.swift in Sources */,
 				5E2DE6AA22CEC6D1009B214A /* AppDelegate.swift in Sources */,
+				DD9B164322E1C3630091CD5C /* Team.swift in Sources */,
+				DD9B164122E1C32E0091CD5C /* Player.swift in Sources */,
+				DD9B163F22E1C2FB0091CD5C /* IDisplay.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
