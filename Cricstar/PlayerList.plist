@@ -7,124 +7,179 @@
 		<key>AllPlayersData</key>
 		<array>
 			<dict>
-				<key>PakistanPlayersData</key>
-				<dict>
-					<key>Player15</key>
+				<key>SouthAfricaPlayers</key>
+				<array>
 					<dict>
-						<key>PlayerID15</key>
-						<string>15</string>
-						<key>PlayerName15</key>
-						<string>Akhtar</string>
+						<key>PlayerID</key>
+						<string>21</string>
+						<key>PlayerName</key>
+						<string>Smith</string>
 					</dict>
-					<key>Player14</key>
 					<dict>
-						<key>PlayerID14</key>
-						<string>14</string>
-						<key>PlayerName14</key>
-						<string>Sami</string>
+						<key>PlayerID</key>
+						<string>22</string>
+						<key>PlayerName</key>
+						<string>Kallis</string>
 					</dict>
-					<key>Player13</key>
 					<dict>
-						<key>PlayerID13</key>
-						<string>13</string>
-						<key>PlayerName13</key>
-						<string>Younis</string>
+						<key>PlayerID</key>
+						<string>23</string>
+						<key>PlayerName</key>
+						<string>Amla</string>
 					</dict>
-					<key>Player12</key>
 					<dict>
-						<key>PlayerID12</key>
-						<string>12</string>
-						<key>PlayerName12</key>
-						<string>Malik</string>
+						<key>PlayerID</key>
+						<string>24</string>
+						<key>PlayerName</key>
+						<string>Rabada</string>
 					</dict>
-					<key>Player11</key>
 					<dict>
-						<key>PlayerID11</key>
-						<string>11</string>
-						<key>PlayerName11</key>
-						<string>Azam</string>
+						<key>PlayerID</key>
+						<string>25</string>
+						<key>PlayerName</key>
+						<string>Nell</string>
 					</dict>
-				</dict>
+				</array>
 			</dict>
 			<dict>
-				<key>AustraliaPlayersData</key>
-				<dict>
-					<key>Player6</key>
+				<key>EnglandPlayers</key>
+				<array>
 					<dict>
-						<key>PlayerID6</key>
+						<key>PlayerID</key>
+						<string>16</string>
+						<key>PlayerName</key>
+						<string>Cook</string>
+					</dict>
+					<dict>
+						<key>PlayerID</key>
+						<string>17</string>
+						<key>PlayerName</key>
+						<string>Strauss</string>
+					</dict>
+					<dict>
+						<key>PlayerID</key>
+						<string>18</string>
+						<key>PlayerName</key>
+						<string>Trescothik</string>
+					</dict>
+					<dict>
+						<key>PlayerID</key>
+						<string>19</string>
+						<key>PlayerName</key>
+						<string>Anderson</string>
+					</dict>
+					<dict>
+						<key>PlayerID</key>
+						<string>20</string>
+						<key>PlayerName</key>
+						<string>Collingwood</string>
+					</dict>
+				</array>
+			</dict>
+			<dict>
+				<key>PakistanPlayers</key>
+				<array>
+					<dict>
+						<key>PlayerID</key>
+						<string>15</string>
+						<key>PlayerName</key>
+						<string>Akhtar</string>
+					</dict>
+					<dict>
+						<key>PlayerID</key>
+						<string>14</string>
+						<key>PlayerName</key>
+						<string>Sami</string>
+					</dict>
+					<dict>
+						<key>PlayerID</key>
+						<string>13</string>
+						<key>PlayerName</key>
+						<string>Younis</string>
+					</dict>
+					<dict>
+						<key>PlayerID</key>
+						<string>12</string>
+						<key>PlayerName</key>
+						<string>Malik</string>
+					</dict>
+					<dict>
+						<key>PlayerID</key>
+						<string>11</string>
+						<key>PlayerName</key>
+						<string>Azam</string>
+					</dict>
+				</array>
+			</dict>
+			<dict>
+				<key>AustraliaPlayers</key>
+				<array>
+					<dict>
+						<key>PlayerID</key>
 						<string>6</string>
-						<key>PlayerName6</key>
+						<key>PlayerName</key>
 						<string>Gilchrist</string>
 					</dict>
-					<key>PlayerID7</key>
 					<dict>
-						<key>PlayerID7</key>
+						<key>PlayerID</key>
 						<string>7</string>
-						<key>PlayerName7</key>
+						<key>PlayerName</key>
 						<string>Hayden</string>
 					</dict>
-					<key>Player8</key>
 					<dict>
 						<key>PlayerID</key>
 						<string>8</string>
-						<key>PlayerName8</key>
+						<key>PlayerName</key>
 						<string>Ponting</string>
 					</dict>
-					<key>Player9</key>
 					<dict>
-						<key>PlayerID9</key>
+						<key>PlayerID</key>
 						<string>9</string>
-						<key>PlayerName9</key>
+						<key>PlayerName</key>
 						<string>Lee</string>
 					</dict>
-					<key>Player10</key>
 					<dict>
-						<key>PlayerID10</key>
+						<key>PlayerID</key>
 						<string>10</string>
-						<key>PlayerName10</key>
+						<key>PlayerName</key>
 						<string>Mcgrath</string>
 					</dict>
-				</dict>
+				</array>
 			</dict>
 			<dict>
-				<key>IndiaPlayersData</key>
-				<dict>
-					<key>Player2</key>
+				<key>IndiaPlayers</key>
+				<array>
 					<dict>
-						<key>PlayerID2</key>
-						<string>2</string>
-						<key>PlayerName2</key>
-						<string>Sachin</string>
-					</dict>
-					<key>Player5</key>
-					<dict>
-						<key>PlayerId5</key>
-						<string>5</string>
-						<key>PlayerName5</key>
-						<string>Shami</string>
-					</dict>
-					<key>Player4</key>
-					<dict>
-						<key>PlayerID4</key>
-						<string>4</string>
-						<key>PlayerName4</key>
-						<string>Bumrah</string>
-					</dict>
-					<key>Player3</key>
-					<dict>
-						<key>PlayerID3</key>
-						<string>3</string>
-						<key>PlayerName3</key>
-						<string>Yuvraj</string>
-					</dict>
-					<key>Player1</key>
-					<dict>
-						<key>PlayerID1</key>
+						<key>PlayerID</key>
 						<string>1</string>
-						<key>PlayerName1</key>
+						<key>PlayerName</key>
 						<string>Sehwag</string>
 					</dict>
-				</dict>
+					<dict>
+						<key>PlayerID</key>
+						<string>2</string>
+						<key>PlayerName</key>
+						<string>Sachin</string>
+					</dict>
+					<dict>
+						<key>PlayerID</key>
+						<string>3</string>
+						<key>PlayerName</key>
+						<string>Yuvraj</string>
+					</dict>
+					<dict>
+						<key>PlayerID</key>
+						<string>4</string>
+						<key>PlayerName</key>
+						<string>Pathan</string>
+					</dict>
+					<dict>
+						<key>PlayerID</key>
+						<string>5</string>
+						<key>PlayerName</key>
+						<string>Balaji</string>
+					</dict>
+				</array>
 			</dict>
 		</array>
 	</dict>
