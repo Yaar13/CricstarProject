@@ -24,9 +24,11 @@ class ViewController: UIViewController {
     @IBAction func LoginMsg(_ sender: UIButton) {
         
         if let email = Userid.text{
-            if !email.isEmpty{
+            if !email.isEmpty
+            {
                 
-                if email.isVAlidEmail(){
+                if email.isVAlid
+                {
                     if let password = PasswordMSg.text{
                         if !password.isEmpty{
                             if PasswordMSg.sizeCheck(){

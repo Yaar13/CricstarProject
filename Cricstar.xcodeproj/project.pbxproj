@@ -15,6 +15,8 @@
 		5E2DE6B422CEC6D2009B214A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E2DE6B222CEC6D2009B214A /* LaunchScreen.storyboard */; };
 		5E2DE6BD22CEC72B009B214A /* IconImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E2DE6BC22CEC72B009B214A /* IconImageViewController.swift */; };
 		5E2DE6BF22CEC738009B214A /* Cricketprojectios.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5E2DE6BE22CEC738009B214A /* Cricketprojectios.jpg */; };
+		DD9B163322E1AA610091CD5C /* UserInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = DD9B163222E1AA610091CD5C /* UserInfo.plist */; };
+		DD9B163522E1AE6E0091CD5C /* UserStrFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9B163422E1AE6E0091CD5C /* UserStrFile.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		5E2DE6B522CEC6D2009B214A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5E2DE6BC22CEC72B009B214A /* IconImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconImageViewController.swift; sourceTree = "<group>"; };
 		5E2DE6BE22CEC738009B214A /* Cricketprojectios.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Cricketprojectios.jpg; sourceTree = "<group>"; };
+		DD9B163222E1AA610091CD5C /* UserInfo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = UserInfo.plist; sourceTree = "<group>"; };
+		DD9B163422E1AE6E0091CD5C /* UserStrFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserStrFile.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +72,7 @@
 				5E2DE6B022CEC6D2009B214A /* Assets.xcassets */,
 				5E2DE6B222CEC6D2009B214A /* LaunchScreen.storyboard */,
 				5E2DE6B522CEC6D2009B214A /* Info.plist */,
+				DD9B163222E1AA610091CD5C /* UserInfo.plist */,
 			);
 			path = Cricstar;
 			sourceTree = "<group>";
@@ -77,6 +82,7 @@
 			children = (
 				5E2DE6BC22CEC72B009B214A /* IconImageViewController.swift */,
 				5E2DE6BE22CEC738009B214A /* Cricketprojectios.jpg */,
+				DD9B163422E1AE6E0091CD5C /* UserStrFile.swift */,
 			);
 			path = "New Group";
 			sourceTree = "<group>";
@@ -142,6 +148,7 @@
 				5E2DE6B422CEC6D2009B214A /* LaunchScreen.storyboard in Resources */,
 				5E2DE6B122CEC6D2009B214A /* Assets.xcassets in Resources */,
 				5E1E907622DE9391004D7B73 /* PlayerList.plist in Resources */,
+				DD9B163322E1AA610091CD5C /* UserInfo.plist in Resources */,
 				5E2DE6AF22CEC6D1009B214A /* Main.storyboard in Resources */,
 				5E2DE6BF22CEC738009B214A /* Cricketprojectios.jpg in Resources */,
 			);
@@ -154,6 +161,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD9B163522E1AE6E0091CD5C /* UserStrFile.swift in Sources */,
 				5E2DE6AC22CEC6D1009B214A /* ViewController.swift in Sources */,
 				5E2DE6BD22CEC72B009B214A /* IconImageViewController.swift in Sources */,
 				5E2DE6AA22CEC6D1009B214A /* AppDelegate.swift in Sources */,
