@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		5E1E907622DE9391004D7B73 /* PlayerList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5E1E907522DE9391004D7B73 /* PlayerList.plist */; };
 		5E2DE6AA22CEC6D1009B214A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E2DE6A922CEC6D1009B214A /* AppDelegate.swift */; };
-		5E2DE6AC22CEC6D1009B214A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E2DE6AB22CEC6D1009B214A /* ViewController.swift */; };
+		5E2DE6AC22CEC6D1009B214A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E2DE6AB22CEC6D1009B214A /* LoginViewController.swift */; };
 		5E2DE6AF22CEC6D1009B214A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E2DE6AD22CEC6D1009B214A /* Main.storyboard */; };
 		5E2DE6B122CEC6D2009B214A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E2DE6B022CEC6D2009B214A /* Assets.xcassets */; };
 		5E2DE6B422CEC6D2009B214A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E2DE6B222CEC6D2009B214A /* LaunchScreen.storyboard */; };
@@ -17,13 +17,16 @@
 		5E2DE6BF22CEC738009B214A /* Cricketprojectios.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5E2DE6BE22CEC738009B214A /* Cricketprojectios.jpg */; };
 		DD9B163322E1AA610091CD5C /* UserInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = DD9B163222E1AA610091CD5C /* UserInfo.plist */; };
 		DD9B163522E1AE6E0091CD5C /* UserStrFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9B163422E1AE6E0091CD5C /* UserStrFile.swift */; };
+		DD9B163722E1BC340091CD5C /* CustomerError.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9B163622E1BC340091CD5C /* CustomerError.swift */; };
+		DD9B163922E1BD3C0091CD5C /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9B163822E1BD3C0091CD5C /* StringExtension.swift */; };
+		DD9B163B22E1C0010091CD5C /* PlayerListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9B163A22E1C0010091CD5C /* PlayerListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5E1E907522DE9391004D7B73 /* PlayerList.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = PlayerList.plist; sourceTree = "<group>"; };
 		5E2DE6A622CEC6D1009B214A /* Cricstar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cricstar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E2DE6A922CEC6D1009B214A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5E2DE6AB22CEC6D1009B214A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5E2DE6AB22CEC6D1009B214A /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		5E2DE6AE22CEC6D1009B214A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5E2DE6B022CEC6D2009B214A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5E2DE6B322CEC6D2009B214A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -32,6 +35,9 @@
 		5E2DE6BE22CEC738009B214A /* Cricketprojectios.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Cricketprojectios.jpg; sourceTree = "<group>"; };
 		DD9B163222E1AA610091CD5C /* UserInfo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = UserInfo.plist; sourceTree = "<group>"; };
 		DD9B163422E1AE6E0091CD5C /* UserStrFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserStrFile.swift; sourceTree = "<group>"; };
+		DD9B163622E1BC340091CD5C /* CustomerError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerError.swift; sourceTree = "<group>"; };
+		DD9B163822E1BD3C0091CD5C /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		DD9B163A22E1C0010091CD5C /* PlayerListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,13 +72,14 @@
 			children = (
 				5E2DE6BB22CEC70A009B214A /* New Group */,
 				5E2DE6A922CEC6D1009B214A /* AppDelegate.swift */,
-				5E2DE6AB22CEC6D1009B214A /* ViewController.swift */,
+				5E2DE6AB22CEC6D1009B214A /* LoginViewController.swift */,
 				5E1E907522DE9391004D7B73 /* PlayerList.plist */,
 				5E2DE6AD22CEC6D1009B214A /* Main.storyboard */,
 				5E2DE6B022CEC6D2009B214A /* Assets.xcassets */,
 				5E2DE6B222CEC6D2009B214A /* LaunchScreen.storyboard */,
 				5E2DE6B522CEC6D2009B214A /* Info.plist */,
 				DD9B163222E1AA610091CD5C /* UserInfo.plist */,
+				DD9B163A22E1C0010091CD5C /* PlayerListViewController.swift */,
 			);
 			path = Cricstar;
 			sourceTree = "<group>";
@@ -83,6 +90,8 @@
 				5E2DE6BC22CEC72B009B214A /* IconImageViewController.swift */,
 				5E2DE6BE22CEC738009B214A /* Cricketprojectios.jpg */,
 				DD9B163422E1AE6E0091CD5C /* UserStrFile.swift */,
+				DD9B163622E1BC340091CD5C /* CustomerError.swift */,
+				DD9B163822E1BD3C0091CD5C /* StringExtension.swift */,
 			);
 			path = "New Group";
 			sourceTree = "<group>";
@@ -162,7 +171,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				DD9B163522E1AE6E0091CD5C /* UserStrFile.swift in Sources */,
-				5E2DE6AC22CEC6D1009B214A /* ViewController.swift in Sources */,
+				5E2DE6AC22CEC6D1009B214A /* LoginViewController.swift in Sources */,
+				DD9B163922E1BD3C0091CD5C /* StringExtension.swift in Sources */,
+				DD9B163B22E1C0010091CD5C /* PlayerListViewController.swift in Sources */,
+				DD9B163722E1BC340091CD5C /* CustomerError.swift in Sources */,
 				5E2DE6BD22CEC72B009B214A /* IconImageViewController.swift in Sources */,
 				5E2DE6AA22CEC6D1009B214A /* AppDelegate.swift in Sources */,
 			);

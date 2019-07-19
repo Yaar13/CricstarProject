@@ -61,6 +61,7 @@
                                 <state key="normal" title="Login"/>
                                 <connections>
                                     <action selector="LoginMsg:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ReG-1G-Mbi"/>
+                                    <action selector="btn_loginclick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="L23-HC-yFu"/>
                                     <segue destination="hVW-tr-Edj" kind="show" id="Leb-Sq-OI6"/>
                                 </connections>
                             </button>
@@ -80,6 +81,9 @@
                         <outlet property="PasswordMSg" destination="Dpu-is-k89" id="XLs-OY-9Ud"/>
                         <outlet property="RememberMe" destination="Ca7-dI-5az" id="wWa-9M-KTa"/>
                         <outlet property="Userid" destination="o7V-7J-Gxr" id="Svb-yn-McP"/>
+                        <outlet property="switch_rememberMe" destination="uPG-ME-4eS" id="cVO-oZ-2B7"/>
+                        <outlet property="txt_emailID" destination="o7V-7J-Gxr" id="3CT-x0-Ti8"/>
+                        <outlet property="txt_password" destination="Dpu-is-k89" id="6UX-fx-S1t"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -183,6 +187,6 @@
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="TRR-bg-bOF"/>
-        <segue reference="Leb-Sq-OI6"/>
+        <segue reference="gfs-UO-KwP"/>
     </inferredMetricsTieBreakers>
 </document>
