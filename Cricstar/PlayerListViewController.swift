@@ -23,7 +23,7 @@ class PlayerListViewController: UIViewController,UITableViewDelegate , UITableVi
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        readCustomersPlistFile()
+        readPlayerListPlistFile()
             {
         var player1: Player = Player()
         
@@ -654,41 +654,7 @@ class PlayerListViewController: UIViewController,UITableViewDelegate , UITableVi
         
         
         
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        customerArray = [cust1, cust2, cust3, cust4, cust5]
+PlayerArray = [player1,player2,player3,player4,player5,player6,player7,player8]
         self.tbl_users.delegate = self
         self.tbl_users.dataSource = self
         // Do any additional setup after loading the view.

@@ -24,6 +24,8 @@
 		DD9B163F22E1C2FB0091CD5C /* IDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9B163E22E1C2FB0091CD5C /* IDisplay.swift */; };
 		DD9B164122E1C32E0091CD5C /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9B164022E1C32E0091CD5C /* Player.swift */; };
 		DD9B164322E1C3630091CD5C /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9B164222E1C3630091CD5C /* Team.swift */; };
+		DD9B164522E1C68B0091CD5C /* TeamListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9B164422E1C68B0091CD5C /* TeamListViewController.swift */; };
+		DD9B164722E1C6A80091CD5C /* MatchlistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9B164622E1C6A80091CD5C /* MatchlistViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +48,8 @@
 		DD9B163E22E1C2FB0091CD5C /* IDisplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IDisplay.swift; sourceTree = "<group>"; };
 		DD9B164022E1C32E0091CD5C /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 		DD9B164222E1C3630091CD5C /* Team.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Team.swift; sourceTree = "<group>"; };
+		DD9B164422E1C68B0091CD5C /* TeamListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamListViewController.swift; sourceTree = "<group>"; };
+		DD9B164622E1C6A80091CD5C /* MatchlistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchlistViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +108,8 @@
 				DD9B163E22E1C2FB0091CD5C /* IDisplay.swift */,
 				DD9B164022E1C32E0091CD5C /* Player.swift */,
 				DD9B164222E1C3630091CD5C /* Team.swift */,
+				DD9B164422E1C68B0091CD5C /* TeamListViewController.swift */,
+				DD9B164622E1C6A80091CD5C /* MatchlistViewController.swift */,
 			);
 			path = "New Group";
 			sourceTree = "<group>";
@@ -183,10 +189,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				DD9B163522E1AE6E0091CD5C /* UserStrFile.swift in Sources */,
+				DD9B164722E1C6A80091CD5C /* MatchlistViewController.swift in Sources */,
 				5E2DE6AC22CEC6D1009B214A /* LoginViewController.swift in Sources */,
 				DD9B163922E1BD3C0091CD5C /* StringExtension.swift in Sources */,
 				DD9B163B22E1C0010091CD5C /* PlayerListViewController.swift in Sources */,
 				DD9B163722E1BC340091CD5C /* CustomerError.swift in Sources */,
+				DD9B164522E1C68B0091CD5C /* TeamListViewController.swift in Sources */,
 				5E2DE6BD22CEC72B009B214A /* IconImageViewController.swift in Sources */,
 				DD9B163D22E1C2E20091CD5C /* Person.swift in Sources */,
 				5E2DE6AA22CEC6D1009B214A /* AppDelegate.swift in Sources */,
