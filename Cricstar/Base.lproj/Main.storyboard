@@ -33,7 +33,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Cricketprojectios.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="tqP-pg-KjR">
-                                <rect key="frame" x="87" y="104" width="240" height="258"/>
+                                <rect key="frame" x="87" y="104" width="228" height="247"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Dpu-is-k89">
@@ -61,6 +61,7 @@
                                 <state key="normal" title="Login"/>
                                 <connections>
                                     <action selector="LoginMsg:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ReG-1G-Mbi"/>
+                                    <action selector="btn_loginclick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="L23-HC-yFu"/>
                                     <segue destination="hVW-tr-Edj" kind="show" id="Leb-Sq-OI6"/>
                                 </connections>
                             </button>
@@ -78,7 +79,11 @@
                     <connections>
                         <outlet property="IconImg" destination="tqP-pg-KjR" id="Cyc-rc-gqL"/>
                         <outlet property="PasswordMSg" destination="Dpu-is-k89" id="XLs-OY-9Ud"/>
+                        <outlet property="RememberMe" destination="Ca7-dI-5az" id="wWa-9M-KTa"/>
                         <outlet property="Userid" destination="o7V-7J-Gxr" id="Svb-yn-McP"/>
+                        <outlet property="switch_rememberMe" destination="uPG-ME-4eS" id="cVO-oZ-2B7"/>
+                        <outlet property="txt_emailID" destination="o7V-7J-Gxr" id="3CT-x0-Ti8"/>
+                        <outlet property="txt_password" destination="Dpu-is-k89" id="6UX-fx-S1t"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
